@@ -9,7 +9,7 @@
 // Write methods. It minimizes memory copying.
 //
 // A Pool is used to cache allocated but unused items for
-// later reuse, relieving pressure on the garbage collector.
+// later reuse, relieving pressure on the sgarbage collector.
 // That is, it makes it easy to build efficient, thread-safe
 // free lists.
 //
