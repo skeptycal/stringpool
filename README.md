@@ -16,12 +16,12 @@
 
 ### Prerequisites
 
-- [Go](https://golang.org/)
-- [Git](https://git-scm.com/)
-- [GitHub CLI](https://cli.github.com/)
+-   [Go](https://golang.org/)
+-   [Git](https://git-scm.com/)
+-   [GitHub CLI](https://cli.github.com/)
 -
 
-Developed with $( go version; ). Go is _extremely_ backwards compatible and semver stable. Nearly any v1.x should work fine.
+Developed with go1.17.6 darwin/arm64. Go is _extremely_ backwards compatible and semver stable. Nearly any v1.x should work fine.
 
 ---
 
@@ -97,8 +97,8 @@ We use SemVer for versioning. For the versions available, see the tags on this r
 
 ## Contributors and Inspiration
 
-- Michael Treanor ([GitHub][github] / [Twitter][twitter]) - Initial work, updates, maintainer
-- [Francesc Campoy][campoy] - Inspiration and great YouTube videos!
+-   Michael Treanor ([GitHub][github] / [Twitter][twitter]) - Initial work, updates, maintainer
+-   [Francesc Campoy][campoy] - Inspiration and great YouTube videos!
 
 See also the list of contributors who participated in this project.
 

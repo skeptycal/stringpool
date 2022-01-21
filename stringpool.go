@@ -122,7 +122,7 @@ func Release(b *strings.Builder) {
 // string using Write methods. It minimizes memory
 // copying. The zero value is ready to use. Do
 // not copy a non-zero Builder.
-func (bp *StringPool) Get() *strings.Builder {
+func (bp StringPool) Get() *strings.Builder {
 	return bp.pool.Get().(*strings.Builder)
 }
 
@@ -136,7 +136,7 @@ func (bp *StringPool) Get() *strings.Builder {
 // automatically at any time without notification.
 // If the Pool holds the only reference when this
 // happens, the item might be deallocated.
-func (bp *StringPool) Release(b *strings.Builder) {
+func (bp StringPool) Release(b *strings.Builder) {
 	b.Reset()
 	bp.pool.Put(b)
 }
